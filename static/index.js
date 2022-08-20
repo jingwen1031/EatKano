@@ -335,10 +335,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
+    if (score <= 49) return '能不能讲讲道理？';
+    if (score <= 99) return ''初生;
+    if (score <= 149) return '一坨史啊你这手速';
+    if (score <= 199) return '出生';
     return '人？';
 }
 

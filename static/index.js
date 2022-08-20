@@ -336,7 +336,7 @@ function shareText(score) {
     }
     SubmitResults();
     if (score <= 49) return '能不能讲讲道理？';
-    if (score <= 99) return ''初生;
+    if (score <= 99) return '初生';
     if (score <= 149) return '一坨史啊你这手速';
     if (score <= 199) return '出生';
     return '人？';
